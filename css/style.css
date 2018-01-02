@@ -1,0 +1,40 @@
+h2 {
+  margin: 20px; }
+
+p {
+  padding: 10px 20px;
+  margin: 0;
+  font-size: 14px;
+  text-decoration: uppercase;
+  font-weight: normal;
+  color: #5a5a5a; }
+  p strong {
+    font-size: 18px; }
+
+.prev-list,
+.new-list {
+  margin: 30px 0;
+  padding: 10x; }
+  .prev-list li,
+  .new-list li {
+    margin: 0px;
+    list-style: circle;
+    font-size: 22px; }
+
+.new-list > li {
+  color: #fc9900; }
+
+.prev-list > li {
+  color: #47cf73; }
+
+.trigger {
+  margin: 20px; }
+  .trigger button {
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    background: #47cf73;
+    border: 0;
+    cursor: pointer; }
+    .trigger button:hover {
+      background: #2fb45a; }
